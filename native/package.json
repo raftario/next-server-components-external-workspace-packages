@@ -1,0 +1,15 @@
+{
+  "name": "@issue/native",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "types": "index.d.ts",
+  "gypfile": true,
+  "scripts": {
+    "postinstall": "node-gyp build"
+  },
+  "devDependencies": {
+    "node-addon-api": "^5.0.0",
+    "node-gyp": "^9.3.0"
+  }
+}
